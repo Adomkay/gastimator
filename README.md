@@ -5,12 +5,12 @@ Gastimator is a conversion web application developed using Streamlit. The app al
 # Features
 - User-friendly interface for conversion between various units.
 - Supports conversion for the following types:
--- Volume
--- Power
--- Natural Gas
--- LNG
--- Energy
--- Calorific Value
+ - Volume
+ - Power
+ - Natural Gas
+ - LNG
+ - Energy
+ - Calorific Value
 # How to Run
 1. Clone this repository to your local machine.
 2. Navigate to the cloned repository.
