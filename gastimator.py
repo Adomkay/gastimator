@@ -12,6 +12,14 @@ lng_conversion = pd.read_csv('lng_conversion_table.csv')
 energy_conversion = pd.read_csv('energy_conversion_table.csv')
 calorific_conversion = pd.read_csv('calorific_conversion_table.csv')
 
+# Convert the conversion factors to numeric
+volume_conversion.iloc[:, 1:] = volume_conversion.iloc[:, 1:].apply(pd.to_numeric, errors='coerce')
+power_conversion.iloc[:, 1:] = power_conversion.iloc[:, 1:].apply(pd.to_numeric, errors='coerce')
+natural_gas_conversion.iloc[:, 1:] = natural_gas_conversion.iloc[:, 1:].apply(pd.to_numeric, errors='coerce')
+lng_conversion.iloc[:, 1:] = lng_conversion.iloc[:, 1:].apply(pd.to_numeric, errors='coerce')
+energy_conversion.iloc[:, 1:] = energy_conversion.iloc[:, 1:].apply(pd.to_numeric, errors='coerce')
+calorific_conversion.iloc[:, 1:] = calorific_conversion.iloc[:, 1:].apply(pd.to_numeric, errors='coerce')
+
 # Display the app title on all pages
 st.title("Gastimator :fire:")
 
