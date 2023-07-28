@@ -3,14 +3,14 @@
 Gastimator is a conversion web application developed using Streamlit. The app allows users to convert various quantities related to gas, such as volume, power, natural gas, liquefied natural gas (LNG), energy, and calorific value, from one unit to another.
 <img width="1254" alt="Screen Shot 2023-07-28 at 10 58 58 AM" src="https://github.com/Adomkay/gastimator/assets/30287080/b9479089-4082-4c72-b6ab-80c05883911a">
 # Features
-User-friendly interface for conversion between various units.
-Supports conversion for the following types:
-- Volume
-- Power
-- Natural Gas
-- LNG
-- Energy
-- Calorific Value
+- User-friendly interface for conversion between various units.
+- Supports conversion for the following types:
+-- Volume
+-- Power
+-- Natural Gas
+-- LNG
+-- Energy
+-- Calorific Value
 # How to Run
 1. Clone this repository to your local machine.
 2. Navigate to the cloned repository.
